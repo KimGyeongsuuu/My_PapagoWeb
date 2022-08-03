@@ -17,11 +17,13 @@
             <span class="three">사전</span>
         </div>
         <div class="rightpage">
-            <span><img class="small" src="small.png"></span>
-            <span><img class="star" src="star.png"></span>
-            <span><img class="setting" src="setting.png"></span>
-            <span>로그인</span>
-            <span><img class="square" src="square.png"></span>
+            <span class="small-div"><img class="small" src="small.png"></span>
+            <span class="star-div"><img class="star" src="star.png"></span>
+            <span class="setting-div"><img class="setting" src="setting.png"></span>
+            <div class="login">
+                <span class="login-div">로그인</span>
+            </div>
+            <span class="square-div"><img class="square" src="square.png"></span>
         </div>
     </div>
     <hr class="middleline">
@@ -29,37 +31,49 @@
         <div class="leftarea">
             <div class="language">
                 <div class="language-button">
-                    <span>언어감지</span>
+                    <span class="language-sense">언어감지</span>
                     <span><i class="fa-solid fa-chevron-down"></i></span>
                 </div>
+                <div class="changeImg"><img src="change.png"></div>
             </div>
-            <hr class="middleline2">
             <div class="typing-div">
-                <input class="typing" type="text" placeholder="번역할 내용을 입력하세요.">
+                <textarea class="typing" type="text" placeholder="번역할 내용을 입력하세요."></textarea>
             </div>
-            <hr class="middleline2">
             <div class="play">
-                <img class="img1" src="sound.png">
-                <img class="img2" src="copy.png">
+                <div class="img"><img src="sound.png"></div>
+                <div class="img"><img src="copy.png"></div>
                 <div class="translate"><span>번역하기</span></div>
             </div>
         </div>
         <div class="rightarea">
             <div class="language">
-                <div class="language-button">
-                    <span>영어</span>
+                <div class="language-button2">
+                    <span class="English">영어</span>
                     <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>  
+            </div>
+            <div class="typing-div">
+            </div>
+            <div class="play">
+                <div class="img" id="sound-img"><img src="sound.png"></div>
+                <div class="img" id="copy-img"><img src="copy.png"></div>
+                <div class="img" id="star-img"><img src="star.png"></div>
+                <div class="img" id="share-img"><img src="share.png"></div>
+            </div>
+        </div>  
+    </div>
+    <div class="middleDiv">
+        <div class="middle-head">
+            <div class="auto">
+                <div class="middlecontent">
+                    <input type="checkbox" id="toggle" hidden> 
+                    <label for="toggle" class="toggleSwitch">
+                        <span class="toggleButton"></span>
+                    </label>
+                    <span class="auto-complete">자동완성</span>
                 </div>
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
         </div>
-    </div>
-
     </div>
 </body>
 </html>
