@@ -13,6 +13,7 @@
         <img class="Papago_face"src="Papago.png">
         <div class="leftpage">
             <span class="one">웹사이트 번역</span>
+            <span class="four">문서 번역</span>
             <span class="two">GYM</span>
             <span class="three">사전</span>
         </div>
@@ -21,9 +22,9 @@
             <span class="star-div"><img class="star" src="star.png"></span>
             <span class="setting-div"><img class="setting" src="setting.png"></span>
             <div class="login">
-                <span class="login-div">로그인</span>
+                <div class="login-div">로그인</div>
             </div>
-            <span class="square-div"><img class="square" src="square.png"></span>
+            <div class="square-div"><img class="square" src="square.png"></div>
         </div>
     </div>
     <hr class="middleline">
@@ -40,8 +41,8 @@
                 <textarea class="typing" type="text" placeholder="번역할 내용을 입력하세요."></textarea>
             </div>
             <div class="play">
-                <div class="img"><img src="sound.png"></div>
-                <div class="img"><img src="copy.png"></div>
+                <div class="img" id="sound-img"><img src="sound.png"></div>
+                <div class="img" id="copy-img"><img src="copy.png"></div>
                 <div class="translate"><span>번역하기</span></div>
             </div>
         </div>
@@ -68,10 +69,64 @@
                 <div class="middlecontent">
                     <input type="checkbox" id="toggle" hidden> 
                     <label for="toggle" class="toggleSwitch">
-                        <span class="toggleButton"></span>
-                    </label>
+                    <span class="toggleButton"></span></label>
                     <span class="auto-complete">자동완성</span>
                 </div>
+            </div>
+        </div>
+        <div class="middle-body">
+            <div class="middle-under">
+                <div class="middlecontent">
+                    <label class="website-translate">웹사이트 번역</label>
+                    <div class="input-div">
+                        <input class="input-url" type="text" placeholder="URL을 입력하세요.">
+                        <div class="korean-translate">  
+                            <div class="korean-div">
+                                <p>한국어로 번역</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="slide-up">
+            <div class="underHead"> 
+                <div class="Underleft">
+                    <p><img src="new.png"></p>
+                    <p class="advertisement"><span>[Web]</span><span>문서만 올리면 번역 끝! 파파고 문서번역 서비스를 시작합니다!</span></p>
+                </div>
+                <div class="Underright">
+                    <div class="facebook"><a href="https://www.facebook.com/NaverPapago/"><img src="facebook.png"></a></div>
+                    <div class="blog"><a href="https://blog.naver.com/nv_papago"><img src="blog.png"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="download">
+            <div class="download-content"> 
+                <img src="PapagoDownload.png">
+                <p>APP Download</p>
+            </div>
+            <div class="selectLanguage">
+                <p>한국어</p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-link">
+                <ul>
+                    <li class="link-list">이용약관</li>
+                    <li class="link-list">개인정보처리방침</li>
+                    <li class="link-list">책임의 한계와 법적고지</li><br>
+                    <li class="link-list">고객센터</li>
+                    <li class="link-list">의견제안</li>
+                    <li class="link-list">준수사항</li><br>
+                    <li class="link-list">품질 개선 동의</li>
+                    <li class="link-list">단축키</li>
+                    <li class="link-list">제휴∙API 이용문의</li>
+                </ul>
             </div>
         </div>
     </div>
